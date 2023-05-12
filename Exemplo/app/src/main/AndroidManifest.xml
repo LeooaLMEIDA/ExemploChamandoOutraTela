@@ -12,13 +12,13 @@
         android:theme="@style/Theme.Exemplo"
         tools:targetApi="31">
         <activity
-            android:name=".ListaAlunoActivity"
+            android:name="com.example.exemploActivity.ListaAlunoActivity"
             android:exported="false" />
         <activity
-            android:name=".CadastroActivity"
+            android:name="com.example.exemploActivity.CadastroActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.example.exemploActivity.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -46,7 +46,7 @@ public class AlunoAdapter extends BaseAdapter {
 
         Aluno aluno = lista.get(posicao);
         TextView tvRaAluno =  view.findViewById(R.id.tvRaAluno);
-        TextView tvNomeAluno = view.findViewById(R.id.tvRaAluno);
+        TextView tvNomeAluno = view.findViewById(R.id.tvNomeAluno);
 
         tvRaAluno.setText(String.valueOf(aluno.getRa()));
         tvNomeAluno.setText(aluno.getNome());

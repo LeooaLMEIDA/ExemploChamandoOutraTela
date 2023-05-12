@@ -38,6 +38,4 @@
         android:text="SALVAR"
         android:id="@+id/btSalvar"/>
 
-
-
 </LinearLayout>

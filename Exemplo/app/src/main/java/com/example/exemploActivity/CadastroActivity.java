@@ -3,6 +3,7 @@ package com.example.exemploActivity;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -31,6 +32,13 @@ public class CadastroActivity extends AppCompatActivity {
         if (Globais.listaAlunos == null) {
             Globais.listaAlunos = new ArrayList<>();
         }
+
+        btSalvar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                salvarAluno();
+            }
+        });
 
     }
 
